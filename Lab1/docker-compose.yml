@@ -1,0 +1,16 @@
+services:
+  server:
+    build: .
+    command: python -u server.py /srv/content --port 8080
+    volumes:
+      - ./content:/srv/content:ro
+    ports:
+      - 8080:8080
+
+  client:
+    build: .
+    entrypoint: python client.py
+    volumes:
+      - ./downloads:/srv/downloads
+    depends_on:
+      - server
