@@ -116,3 +116,15 @@ Downloading a file:
 ##  Subdirectory listing page
 
 ![img12](/Lab1/screenshots/img12.png)
+
+##  Browsing from another device
+
+The server was browsed from another device by connecting to a hotspot and getting its ipv4 address by using the command ipconfing in the command prompt. 
+
+Screenshot of the site:
+
+![img13](/Lab1/screenshots/img13.png)
+
+Screenshot of logs:
+
+![img14](/Lab1/screenshots/img14.png)
