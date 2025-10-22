@@ -50,7 +50,7 @@ services:
 
 ## Starting the Container
 
-Build and start the server container:
+Inside the Lab1 folder execute the following commands to build and start the server container:
 
 ```bash
 docker compose build
@@ -123,7 +123,7 @@ The server was browsed from another device by connecting to a hotspot and gettin
 
 Screenshot of the site:
 
-![img13](/Lab1/screenshots/img13.png)
+![img13](/Lab1/screenshots/img13.jpg)
 
 Screenshot of logs:
 
